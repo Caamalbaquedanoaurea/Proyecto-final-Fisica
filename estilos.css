@@ -1,0 +1,202 @@
+/* Parte principal*/
+
+body {
+     /* background-image: url('imagenes/imagen_fondo.jpeg'); */
+     /* background-repeat: no-repeat; */
+     /* background-repeat: no-repeat; */
+     /* background-attachment: fixed; */
+     /* background-size: cover; */
+ }
+ 
+ 
+ 
+ /* Disenio Responsivo */
+ /* Smartphones (vertical y horizontal) ----------- */
+ @media only screen 
+ and (min-device-width : 320px) 
+ and (max-device-width : 480px) {
+ /* Styles */
+ }
+ 
+ /* Smartphones (horizontal) ----------- */
+ @media only screen 
+ and (min-width : 321px) {
+ /* Styles */
+     body {
+         background-color: black;
+    
+ }
+ 
+}
+ /* Smartphones (vertical) ----------- */
+ @media only screen 
+ and (max-width : 320px) {
+ /* Styles */
+     body {
+         background-color: rgb(116, 233, 20);
+     }
+ }
+ 
+ /* Tablets (vertical y horizontal) ----------- */
+ @media only screen 
+ and (min-device-width : 768px) 
+ and (max-device-width : 1024px) {
+ /* Styles */
+     body {
+         background-color: orange;
+     }
+ }
+ 
+ /* Tablets (horizontal) ----------- */
+ @media only screen 
+ and (min-device-width : 768px) 
+ and (max-device-width : 1024px) 
+ and (orientation : landscape) {
+ /* Styles */
+     body {
+         background-color:beige;
+     }
+ 
+ }
+ 
+ /* Tablets (vertical) ----------- */
+ @media only screen 
+ and (min-device-width : 768px) 
+ and (max-device-width : 1024px) 
+ and (orientation : portrait) {
+ /* Styles */
+     body {
+         background-color: violet;
+     }
+ 
+ }
+ 
+ /* Desktops y laptops ----------- */
+ @media only screen 
+ and (min-width : 1224px) {
+ /* Styles */
+ body {
+     background-color: blue;
+ }
+ 
+ }
+ 
+ /* Pantallas grandes ----------- */
+ @media only screen 
+ and (min-width : 1824px) {
+ /* Styles */
+ body {
+     background-color: rgb(152, 37, 219);
+}
+
+}
+/* Espacio para hacer el scroll*/
+::-webkit-scrollbar-thumb {
+    background-color: #d3f306;
+    border-radius: 10px;
+    border: 3px solid #1e1e1e;
+}
+
+*{/*para la barra de arriba*/
+     margin:0;
+     padding:0;
+      box-sizing: border-box;
+     text-decoration:none;
+     font-family: 'Times New Roman', Times, serif;
+     
+}
+
+header{
+     position:fixed;
+     top:0;
+     left:0;
+     width:100%;
+     height:70px;
+     background-color: rgb(0, 0, 0);
+     box-shadow: 0 5px 26px-21px black;
+     z-index:2;
+}
+.header-content{
+     max-width: 1200px;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+}
+.logo{
+ height: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.menu{
+     height: 80px;
+
+}
+.menu nav{
+     height:100%;
+}
+.menu nav ul{
+   height: 100%;
+   display: flex;
+   list-style: none;
+}
+.menu nav ul li{
+     height:100% ;
+     margin: 0% 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+}
+menu-selected:before{
+     content: "";
+     width:100%;
+     height: 4px;
+     background-color: chartreuse;
+     position: absolute;
+     top: 0;
+     left: 0;
+  }
+/*contenedor del-contenido del articulo*/
+.container-content{
+    width: 1200 px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+article{
+   width:100%;
+   padding: 20px;
+   padding-bottom: 40px;
+   box-shadow: -10px 0 20px -30px black;/*sombra */
+   border-radius: 6px;
+   overflow: auto;/*delimitar como nos enseño en el pokedek*/
+ /*para poner color en recuadro si lo necesitamos el background-color:*/
+
+}
+ article h1{
+   margin-top:12px;
+   font-weight:500;/*grosor*/
+   font-size:20px;/*tamaño de la fuente o palabras*/
+   font-family: 'Times New Roman', Times, serif;
+}
+
+ article p{ /*todo se aplicara en las etiquetas p */
+     margin-top:12px;
+     font-size: 16px;/*tamaño del parrafo*/
+     color: rgba(120, 12, 228, 0.85);/*color de las letras donde encuentren en etq p*/
+ }
+ article ul li p{/*parrafos*/
+    font-family: Arial, Helvetica, sans-serif;/*tipografias*/
+    font-size: 15px;
+    background-color: rgba(0, 80, 252, 0.397);
+}
+ article img Issac Newoton{/*issac Newton*/
+     
+    
+}
+/* Ya colocamos las cosas para los parrafos asi que bien*/
+/*lo de las definiciones las hice en html usando br para dejar los espacios*/
+/*porque pongo doble br sierve para que no se va achocado y llevar un orden.*/
+
+/*La pagina principal o final lleva de nombre :Paginafisica.intedex.html*/
